@@ -1,0 +1,14 @@
+phrase:
+  project_id: d3cea767190e8f1e3d245b2efa6763da
+  push:
+    sources:
+      - file: ./<locale_code>.json
+        params:
+          file_format: simple_json
+          locale_code: en-US
+          autotranslate: true
+  pull:
+    targets:
+      - file: ./<locale_code>.json
+        params:
+          file_format: simple_json
